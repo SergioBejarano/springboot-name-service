@@ -1,4 +1,4 @@
-package com.sergiobejarano.nombre;
+package com.sergiobejarano.name;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,16 +13,17 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @SpringBootTest
 @AutoConfigureMockMvc
-class NombreControllerTest {
+class NameControllerTest {
 
     @Autowired
     private MockMvc mockMvc;
 
     @Test
-    void deberiaDevolverElNombreDeSergio() throws Exception {
-        mockMvc.perform(get("/api/v1/nombre")
+    void shouldReturnSergioName() throws Exception {
+        mockMvc.perform(get("/api/v1/name")
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.nombre").value("Sergio Bejarano"));
+                .andExpect(jsonPath("$.name").value("Sergio Bejarano"))
+                .andExpect(jsonPath("$.message").value("Hi! My name is Sergio Bejarano."));
     }
 }

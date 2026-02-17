@@ -12,10 +12,10 @@
     </parent>
 
     <groupId>com.sergiobejarano</groupId>
-    <artifactId>nombre-service</artifactId>
+    <artifactId>name-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>nombre-service</name>
-    <description>Microservicio REST que responde con el nombre de Sergio Bejarano</description>
+    <name>name-service</name>
+    <description>REST microservice that returns the name of Sergio Bejarano</description>
     <properties>
         <java.version>17</java.version>
     </properties>

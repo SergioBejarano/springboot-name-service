@@ -1,12 +1,12 @@
-package com.sergiobejarano.nombre;
+package com.sergiobejarano.name;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class NombreServiceApplication {
+public class NameServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(NombreServiceApplication.class, args);
+        SpringApplication.run(NameServiceApplication.class, args);
     }
 }
