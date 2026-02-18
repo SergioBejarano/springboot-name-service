@@ -31,3 +31,17 @@ Response example:
 ```bash
 mvn clean verify
 ```
+
+
+## Deployment of microservice in Railway
+<img width="1551" height="420" alt="image" src="https://github.com/user-attachments/assets/6163eeea-5356-4792-8f9c-368cedec2aaa" />
+
+
+<img width="1757" height="684" alt="image" src="https://github.com/user-attachments/assets/b9b78c97-6e48-43e0-8d61-78088d8489ba" />
+
+
+## Deployment of microservice in Render
+
+<img width="1231" height="470" alt="image" src="https://github.com/user-attachments/assets/98508153-67b2-41c0-befa-76e3e6d7c383" />
+
+<img width="2878" height="1636" alt="image" src="https://github.com/user-attachments/assets/3723a9ca-a175-44c5-b456-9e47858e7918" />
